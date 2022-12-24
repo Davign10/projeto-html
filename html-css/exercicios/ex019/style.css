@@ -6,21 +6,37 @@
 */
 
 body {
-    background-color:#85b8ff;
+    background-color:#78a7ff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #principal{
     text-align: center;
-    background-color: #0400df;
+    background-color:#001DB6;
     color: white;
 
 }
 
 h1 {
-    color: #0400df;
+    color: #000f83;
 }
 
 h2 {
-    color: #0059ff;
+    color: #002BFF;
+}
+
+.basico{
+    color: #035c03;
+}
+
+.intermediario{
+    color: #bdbd07;
+}
+
+.avancado{
+    color: #a50808;
+}
+
+.destaque{
+    background-color: rgba(0, 81, 255, 0.650);
 }
