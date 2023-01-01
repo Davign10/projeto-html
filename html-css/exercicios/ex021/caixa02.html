@@ -6,30 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Tags</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #cecece;
+            background-color: #a3c8ff;
         }
 
-        h1{
-        
+        h1 {
+            color: white;
+            text-align: center;
+            box-shadow: 3px 3px 3px 1px #00000075;
+            background-color: #0028ac;
         }
 
-        header{
+        h2 {
+            color: #ffffff;
+            box-shadow: 3px 3px 3px 1px #00000075;
+            background-color: #0028ac;
+        }
+
+        header {
+            background-color: #012cb9;
+            padding: 8px;
+            margin: 8px;
+        }
+
+        nav {
             background-color: #ffffff;
-            padding: 7px;
-            margin: 7px;
+            padding: 3px;
+            box-shadow: 3px 3px 3px 1px #00000075;
         }
 
-        main{
-            background-color: #ffffff;
-            padding: 7px;
-            margin: 7px;
+        nav > a{
+            text-decoration: none;
+            color: #0066ff;
+            font-weight: bold;
+            margin-left: 34px;
+            margin-right: 34px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: #012cb9;
+        }
+
+        main {
+            padding: 8px;
+        }
+
+        footer {
+            background-color: #012cb9;
+            color: #ffffff;
+            text-align: center;
+            padding: 8px;
+            margin: 8px;
+        }
+
+        footer > p{
+            margin: 0px;
         }
 
         article {
-            background-color: #c0c0c0;
-            padding: 7px;
+            background-color: #012cb9;
+            color: #ffffff;
+            padding: 8px;
+        }
+
+        article > aside{
+            background-color: #ffffff;
+            color: #000000;
         }
     </style>
 </head>
@@ -37,9 +81,12 @@
     <header>
         <h1>Meu Site</h1>
         <nav>
-            <p><a href="#">Link</a></p>
-            <p><a href="#">Link</a></p>
-            <p><a href="#">Link</a></p>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
         </nav>
     </header>
     <main>
@@ -58,7 +105,7 @@
         </section>
     </main>
     <footer>
-
+        <p>Desenvolvido pelo Davi</p>
     </footer>
 </body>
 </html>
