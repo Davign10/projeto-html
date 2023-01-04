@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header {
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #0ea500, #008a07, #005000);
+    padding: 10px;
+    margin: 10px;
+}
+
+#principal {
+    text-align: center;
+}
+
+#descricao {
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+    margin: 10px;
+}
