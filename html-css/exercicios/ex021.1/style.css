@@ -42,3 +42,15 @@ main {
     margin-right: 180px;
 }
 
+footer {
+    background-color: #005000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px;
+    margin-top: 10px;
+}
+
+article {
+    background-color: #cafdcaab;
+    border-radius: 10px;
+}
