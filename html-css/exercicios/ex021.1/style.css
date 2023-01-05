@@ -4,11 +4,16 @@ header {
     color: #ffffff;
     background-image: linear-gradient(to bottom, #0ea500, #008a07, #005000);
     padding: 10px;
-    margin: 10px;
+}
+
+body {
+    background-color: #5bcaa0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #principal {
     text-align: center;
+    color: #ffffff;
 }
 
 #descricao {
@@ -18,4 +23,22 @@ header {
 a {
     color: #ffffff;
     margin: 10px;
+    text-decoration: none;
 }
+
+h1 {
+    color: #005000;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #acfdacab, #cafdcaab, #ffffff);
+    color: #005f00;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
