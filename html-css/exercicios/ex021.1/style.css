@@ -20,6 +20,10 @@ body {
     text-align: center;
 }
 
+.destaque {
+    color: #008a07;
+}
+
 a {
     color: #ffffff;
     margin: 10px;
@@ -54,3 +58,4 @@ article {
     background-color: #cafdcaab;
     border-radius: 10px;
 }
+
