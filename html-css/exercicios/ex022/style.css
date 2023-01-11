@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 50px;
+}
+
+#foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #009396;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: #009396;
+    font-family: cursive;
+}
+
+main p {
+    text-indent: 10px;
+    text-align: justify;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    margin-top: 1px;
+}
+
+a {
+    margin: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
