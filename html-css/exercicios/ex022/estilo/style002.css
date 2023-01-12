@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('../imagens/wallpaper002.jpg');
+    background-size: 100px 100px;
+    /*background-repeat: repeat;redundancia */
+    /*background-repeat: repeat-x; repete horizontalmente */
+    /*background-repeat: repeat-y; repete verticalmente */
+}
